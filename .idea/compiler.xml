@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ict221.boardgame-gui.main" target="11" />
+      <module name="ict221.boardgame-gui.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
