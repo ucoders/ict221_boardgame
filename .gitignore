@@ -25,5 +25,6 @@ hs_err_pid*
 .idea/dictionaries/
 .idea/libraries/
 .idea/modules.xml
+.idea/modules
 .idea/workspace.xml
 boardgame-gui/.gradle/
