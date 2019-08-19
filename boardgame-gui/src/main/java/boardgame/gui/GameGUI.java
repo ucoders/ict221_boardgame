@@ -2,6 +2,8 @@ package boardgame.gui;
 
 import boardgame.engine.GameEngine;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.text.Font;
@@ -19,8 +21,9 @@ public class GameGUI extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Button root = new Button("Amazing Board Game coming soon...");
-        root.setFont(new Font(24));
+        Parent root = FXMLLoader.load(getClass().getResource("game_gui.fxml"));
+        //Button root = new Button("Amazing Board Game coming soon...");
+        //root.setFont(new Font(24));
 
         primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.setTitle("Board Game");
